@@ -96,8 +96,8 @@ Volcano Engine AI Agent Identity Workshop. [Watch](https://www.volcengine.com/li
 (2025_12_Volcano)
 
 ### 2025 FIDO Alliance Taipei Seminar - 2025.12
-(https://fidoalliance.org/event/fido-taipei-seminar/#:~:text=Shipping%20Passkeys%20for,Engineering%20Leader%2C%20TikTok)
-Shipping Passkeys for Hundreds of Millions: TikTok’s Updates and What We Learned
+[Event Details](https://fidoalliance.org/event/fido-taipei-seminar/#:~:text=Shipping%20Passkeys%20for%20Hundreds%20of%20Millions)
+Shipping Passkeys for Hundreds of Millions: TikTok's Updates and What We Learned
 
 (2025_12_Taipei)
 
@@ -105,20 +105,15 @@ Shipping Passkeys for Hundreds of Millions: TikTok’s Updates and What We Learn
 (2025_06_Huawei)
 
 
-### 2024 Volcano Engine Passkey ToB Coffee Chat - 2024.11
-(https://mp.weixin.qq.com/s/UdTYmXoVLVMiV8boESyq0g)
-
-
 ### 2024 FIDO APAC Summit - 2024.09
-(https://fidoapacsummit.com/agenda/#:~:text=From%20Passwords%20to%20Passkeys%3A%20The%20TikTok%20Passkey%20Journey)
-TikTok Passkey Journey(delivered presentation to ~400 attendees)
+[Event Agenda](https://fidoapacsummit.com/agenda/#:~:text=From%20Passwords%20to%20Passkeys)
+From Passwords to Passkeys: The TikTok Passkey Journey (delivered presentation to ~400 attendees)
 
 (2024_09_FIDO_APAC)
 
 ### 2024 FIDO Alliance Osaka Seminar - 2024.05
-(https://fidoalliance.org/fido-alliance-osaka-seminar-presentations-photos/)
-TikTok Passkeys
-(https://docs.google.com/presentation/d/1NFTVqQh9OZLxDOxD1sBvi0tNhnmfkfysWU6TPQzp5n4/edit?slide=id.g2dd7291c6b9_2_52#slide=id.g2dd7291c6b9_2_52)
+[Event Photos](https://fidoalliance.org/fido-alliance-osaka-seminar-presentations-photos/#:~:text=TikTok%20Passkeys)
+TikTok Passkeys - [View Presentation](https://docs.google.com/presentation/d/1NFTVqQh9OZLxDOxD1sBvi0tNhnmfkfysWU6TPQzp5n4/)
 
 (2024_05_FIDO_OSAKA)
 
