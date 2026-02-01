@@ -84,37 +84,49 @@ Representing TikTok on the board of FIDO alliance, an open industry association 
 
 ---
 
+## Public Presentations
+
+### Passwordless Authentication at Scale - 2024
+FIDO Alliance Authenticate Conference. [Watch](https://example.com)
+
+---
+
+### Zero Trust Infrastructure Journey - 2023
+Company Tech Talk, Internal.
+
+---
+
 ## Projects
 
-### IG Account Security
+### IG Account Security - 2016
 Leverage rule based policies to protect users accounts, including [Mark's IG account](https://www.sfgate.com/business/article/Why-Mark-Zuckerberg-s-Instagram-account-7966388.php).
 
 ---
 
-### IG 2FA
+### IG 2FA - 2016
 Launched [IG two-factor authentication](https://techcrunch.com/2016/02/16/instagram-two-factor/).
 
 ---
 
-### IG Time Spent
+### IG Time Spent - 2018
 Launched [IG Time Spent Dashboard](https://techcrunch.com/2018/08/01/facebook-and-instagram-your-activity-time/) to help users well-being on the platform.
 
 ---
 
-### GDPR
+### GDPR - 2018
 Co-led IG wide [GDPR compliant features](https://techcrunch.com/2018/04/24/instagram-export/).
 
 ---
 
-### IG TOTP
+### IG TOTP - 2018
 Launched [IG time-based one-time password feature](https://www.wired.com/story/instagram-security-update/) to provide further security protections to our users.
 
 ---
 
-### Novi Data Separation
+### Novi Data Separation - 2019
 Build access controls to protect [customer privacy and security](assets/images/portfolio/calibra-customer-commitment.pdf).
 
 ---
 
-### Bytedance ZTI
+### Bytedance ZTI - 2021
 Building [zero trust infrastructure](https://spiffe.io/) and making it happen.
