@@ -86,13 +86,41 @@ Representing TikTok on the board of FIDO alliance, an open industry association 
 
 ## Public Presentations
 
-### Passwordless Authentication at Scale - 2024
-FIDO Alliance Authenticate Conference. [Watch](https://example.com)
+### Volcano Engine AI Agent Identity Online Webinar - 2026.01
+Volcano Engine AI Agent Identity Workshop. [Watch](https://www.volcengine.com/live/activity/webinar-20260120)
 
----
+(https://live.livesaasvolccdn.com/6071/5605859) (only for archive)
 
-### Zero Trust Infrastructure Journey - 2023
-Company Tech Talk, Internal.
+
+### 2025 Volcano Engine Force Conference - AI Agent Identity Workshop - 2025.12
+(2025_12_Volcano)
+
+### 2025 FIDO Alliance Taipei Seminar - 2025.12
+(https://fidoalliance.org/event/fido-taipei-seminar/#:~:text=Shipping%20Passkeys%20for,Engineering%20Leader%2C%20TikTok)
+Shipping Passkeys for Hundreds of Millions: TikTok’s Updates and What We Learned
+
+(2025_12_Taipei)
+
+### 2025 Huawei Connect x SealSuite Passkey Adoption - 2025.06
+(2025_06_Huawei)
+
+
+### 2024 Volcano Engine Passkey ToB Coffee Chat - 2024.11
+(https://mp.weixin.qq.com/s/UdTYmXoVLVMiV8boESyq0g)
+
+
+### 2024 FIDO APAC Summit - 2024.09
+(https://fidoapacsummit.com/agenda/#:~:text=From%20Passwords%20to%20Passkeys%3A%20The%20TikTok%20Passkey%20Journey)
+TikTok Passkey Journey(delivered presentation to ~400 attendees)
+
+(2024_09_FIDO_APAC)
+
+### 2024 FIDO Alliance Osaka Seminar - 2024.05
+(https://fidoalliance.org/fido-alliance-osaka-seminar-presentations-photos/)
+TikTok Passkeys
+(https://docs.google.com/presentation/d/1NFTVqQh9OZLxDOxD1sBvi0tNhnmfkfysWU6TPQzp5n4/edit?slide=id.g2dd7291c6b9_2_52#slide=id.g2dd7291c6b9_2_52)
+
+(2024_05_FIDO_OSAKA)
 
 ---
 
@@ -127,6 +155,3 @@ Launched [IG time-based one-time password feature](https://www.wired.com/story/i
 Build access controls to protect [customer privacy and security](assets/images/portfolio/calibra-customer-commitment.pdf).
 
 ---
-
-### Bytedance ZTI - 2021
-Building [zero trust infrastructure](https://spiffe.io/) and making it happen.
