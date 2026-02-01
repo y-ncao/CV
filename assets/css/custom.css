@@ -90,29 +90,221 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
-/* Presentation cards with photos */
-.c-presentation-card {
-  overflow: hidden;
+/* Presentation cards - full width layout */
+.c-presentation-row {
+  margin-bottom: 2.5rem;
 }
 
-.c-presentation-photo {
+.c-presentation-row:last-child {
+  margin-bottom: 0;
+}
+
+.c-presentation-card--full {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04),
+              0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+@media (min-width: 760px) {
+  .c-presentation-card--full {
+    flex-direction: row;
+  }
+}
+
+/* Presentation carousel */
+.c-presentation-carousel {
+  position: relative;
   width: 100%;
-  height: 160px;
-  overflow: hidden;
-  border-radius: 8px;
-  margin-bottom: 1rem;
   background: #f3f4f6;
+  overflow: hidden;
 }
 
-.c-presentation-photo img {
+@media (min-width: 760px) {
+  .c-presentation-carousel {
+    width: 55%;
+    min-height: 320px;
+  }
+}
+
+.c-presentation-carousel__slides {
+  position: relative;
+  width: 100%;
+  height: 240px;
+}
+
+@media (min-width: 760px) {
+  .c-presentation-carousel__slides {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.c-presentation-carousel__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
+  object-position: center top;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
-.c-presentation-card:hover .c-presentation-photo img {
-  transform: scale(1.05);
+/* Custom positioning for specific images to show faces */
+.c-presentation-carousel__slide[data-position="top"] {
+  object-position: center top;
+}
+
+.c-presentation-carousel__slide[data-position="center"] {
+  object-position: center center;
+}
+
+.c-presentation-carousel__slide[data-position="bottom"] {
+  object-position: center bottom;
+}
+
+.c-presentation-carousel__slide[data-position="left"] {
+  object-position: left center;
+}
+
+.c-presentation-carousel__slide[data-position="right"] {
+  object-position: right center;
+}
+
+.c-presentation-carousel__slide[data-position="top-left"] {
+  object-position: left top;
+}
+
+.c-presentation-carousel__slide[data-position="top-right"] {
+  object-position: right top;
+}
+
+.c-presentation-carousel__slide.active {
+  opacity: 1;
+}
+
+/* Specific image positioning overrides for tall images */
+/* 202601_Volcano_1.png - faces at ~20% from top */
+img.c-presentation-carousel__slide[src*="202601_Volcano_1"] {
+  object-position: center 15%;
+}
+
+/* 2025_12_Volcano_5.png - show top section with title */
+img.c-presentation-carousel__slide[src*="2025_12_Volcano_5"] {
+  object-position: center 10%;
+}
+
+/* 2025_12_Taipei_2.JPG - full body portrait, face at ~15% from top */
+img.c-presentation-carousel__slide[src*="2025_12_Taipei_2"] {
+  object-position: center 20%;
+}
+
+/* Click to view indicator */
+.c-presentation-carousel__slide {
+  cursor: pointer;
+}
+
+.c-presentation-carousel__slide:hover {
+  filter: brightness(1.05);
+}
+
+/* Carousel navigation buttons */
+.c-presentation-carousel__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  color: #374151;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.c-presentation-carousel__btn:hover {
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.c-presentation-carousel__btn--prev {
+  left: 12px;
+}
+
+.c-presentation-carousel__btn--next {
+  right: 12px;
+}
+
+/* Carousel dots */
+.c-presentation-carousel__dots {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.c-presentation-carousel__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.c-presentation-carousel__dot.active,
+.c-presentation-carousel__dot:hover {
+  background: #fff;
+  transform: scale(1.2);
+}
+
+/* Presentation info */
+.c-presentation-info {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 760px) {
+  .c-presentation-info {
+    width: 45%;
+    padding: 2rem 2.5rem;
+  }
+}
+
+.c-presentation-info h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.25rem;
+  text-transform: none;
+}
+
+.c-presentation-info p {
+  color: #6b7280;
+  line-height: 1.7;
+  margin-bottom: 0;
 }
 
 /* Paragraph text improvements */
