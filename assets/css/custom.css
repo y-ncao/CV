@@ -1,5 +1,359 @@
 /**
- * CUSTOM CSS
- *
- * Here you can add your custom CSS code.
+ * CUSTOM ENHANCEMENTS
+ * Modern polish for the resume website
  */
+
+/* ========================================
+   1. TYPOGRAPHY IMPROVEMENTS
+   ======================================== */
+
+/* Improved base typography */
+body {
+  color: #6b7280;
+  letter-spacing: 0.01em;
+}
+
+/* Better heading hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  color: #374151;
+  letter-spacing: -0.01em;
+}
+
+/* Section headings - cleaner, bolder */
+.o-section__heading {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #9ca3af;
+}
+
+/* Section descriptions - refined */
+.o-section__description {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #4b5563;
+  letter-spacing: 0.02em;
+}
+
+/* Work headings - company names */
+.c-work__heading {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1f2937;
+  letter-spacing: -0.01em;
+}
+
+/* Job titles */
+.c-work__title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #6b7280;
+  text-transform: none;
+}
+
+/* Timeframe and location */
+.c-work__timeframe,
+.c-work__location {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
+}
+
+/* Project card titles */
+.o-content__body h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.75rem;
+}
+
+/* Paragraph text improvements */
+.o-content__body p {
+  line-height: 1.8;
+  color: #6b7280;
+}
+
+/* Intro paragraph - larger, more prominent */
+.c-intro p {
+  font-size: 1.25rem;
+  line-height: 1.9;
+  color: #4b5563;
+  font-weight: 300;
+}
+
+@media (min-width: 600px) {
+  .c-intro p {
+    font-size: 1.35rem;
+  }
+}
+
+
+/* ========================================
+   2. COLOR REFINEMENTS
+   ======================================== */
+
+/* Refined accent color - warmer, more vibrant amber */
+a,
+.t-link-container .t-link-container__item,
+.t-link-container:hover .t-link-container__item--blended {
+  color: #d97706;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #b45309;
+}
+
+.t-primary-color,
+.t-primary-color-line {
+  color: #d97706;
+}
+
+.t-primary-bg,
+.t-primary-color-line {
+  background: #d97706;
+}
+
+.t-title__second-word {
+  color: #d97706;
+}
+
+/* Preloader color */
+.t-preloader__spinner:not(:required):before {
+  border-top-color: #d97706;
+  border-bottom-color: #d97706;
+}
+
+/* Timeline point color */
+.c-timeline__point {
+  background: #d97706 !important;
+}
+
+
+/* ========================================
+   3. SHADOWS & DEPTH
+   ======================================== */
+
+/* Avatar with subtle shadow */
+.c-avatar__img {
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.15),
+              0 4px 12px -2px rgba(0, 0, 0, 0.08);
+  border: 4px solid #fff;
+}
+
+/* Project cards - subtle lift effect */
+.o-grid__col-md-4 .o-content,
+.o-grid__col-sm-6 .o-content {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04),
+              0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.o-grid__col-md-4 .o-content:hover,
+.o-grid__col-sm-6 .o-content:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08),
+              0 8px 24px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+/* Timeline enhanced */
+.c-timeline {
+  border-left-color: #e5e7eb;
+}
+
+.c-timeline__point {
+  box-shadow: 0 0 0 4px #fff,
+              0 0 0 6px #f3f4f6,
+              0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+
+/* ========================================
+   4. SPACING & LAYOUT POLISH
+   ======================================== */
+
+/* More breathing room in sections */
+@media (min-width: 1200px) {
+  .o-section__header {
+    padding: 5rem 5.25rem 2rem;
+  }
+
+  .o-section__content {
+    padding: 5rem 5.25rem 2rem;
+  }
+}
+
+/* Timeline items - better spacing */
+.c-timeline__item {
+  padding-bottom: 2.5rem;
+}
+
+.c-timeline__item:last-child {
+  padding-bottom: 0;
+}
+
+/* Grid gap for projects */
+.o-grid {
+  gap: 1rem 0;
+}
+
+
+/* ========================================
+   5. DECORATIVE LINE ENHANCEMENT
+   ======================================== */
+
+.c-deco-line {
+  height: 3px;
+  width: 40px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #d97706, #f59e0b);
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+
+/* ========================================
+   6. SOCIAL BUTTONS REFINEMENT
+   ======================================== */
+
+.c-social-button {
+  background: #f9fafb;
+  border-color: #e5e7eb;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+}
+
+.c-social-button .fab {
+  color: #9ca3af;
+  transition: color 0.25s ease;
+}
+
+.c-social-button:hover {
+  background: #d97706;
+  border-color: #d97706;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.3);
+}
+
+.c-social-button:hover .fab {
+  color: #fff;
+}
+
+
+/* ========================================
+   7. BRAND/NAME STYLING
+   ======================================== */
+
+.c-brand__title {
+  font-weight: 800;
+}
+
+.t-title__second-word {
+  background: linear-gradient(135deg, #d97706, #f59e0b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.t-sub-title {
+  color: #6b7280;
+  font-weight: 400;
+}
+
+
+/* ========================================
+   8. SECTION BACKGROUNDS - CLEANER
+   ======================================== */
+
+@media (min-width: 1024px) {
+  .t-section,
+  .t-section__header,
+  .t-section--header .t-section__header {
+    background: #fafafa;
+  }
+
+  .t-section__content {
+    background: #ffffff;
+  }
+
+  .t-section:nth-child(even),
+  .t-section:nth-child(even) .t-section__header {
+    background: #f5f5f5;
+  }
+
+  .t-section:nth-child(even) .t-section__content {
+    background: #fafafa;
+  }
+}
+
+
+/* ========================================
+   9. LINK IMPROVEMENTS
+   ======================================== */
+
+.o-content__body a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(217, 119, 6, 0.3);
+  transition: border-color 0.2s ease;
+}
+
+.o-content__body a:hover {
+  border-bottom-color: #d97706;
+}
+
+
+/* ========================================
+   10. SMOOTH SCROLLING & TRANSITIONS
+   ======================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Smoother transitions globally */
+* {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+/* ========================================
+   11. HEADER SECTION POLISH
+   ======================================== */
+
+/* Make the header section feel more spacious */
+.c-header__inner-content {
+  padding: 2rem 0;
+}
+
+@media (min-width: 1024px) {
+  .c-header__inner-content {
+    padding: 0;
+  }
+}
+
+
+/* ========================================
+   12. RESPONSIVE REFINEMENTS
+   ======================================== */
+
+@media (max-width: 1023px) {
+  .o-section__heading {
+    text-align: center;
+  }
+
+  .o-section__description {
+    text-align: center;
+  }
+
+  .c-deco-line {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
