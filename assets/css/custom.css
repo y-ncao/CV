@@ -603,7 +603,7 @@ a:active {
   .t-section,
   .t-section__header,
   .t-section--header .t-section__header {
-    background: #fafafa;
+    background: #ffffff;
   }
 
   .t-section__content {
@@ -612,11 +612,11 @@ a:active {
 
   .t-section:nth-child(even),
   .t-section:nth-child(even) .t-section__header {
-    background: #f5f5f5;
+    background: #ffffff;
   }
 
   .t-section:nth-child(even) .t-section__content {
-    background: #fafafa;
+    background: #ffffff;
   }
 }
 
