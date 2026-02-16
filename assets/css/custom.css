@@ -425,13 +425,15 @@ img.c-presentation-carousel__slide[src*="2025_12_Taipei_2"] {
 a,
 .t-link-container .t-link-container__item,
 .t-link-container:hover .t-link-container__item--blended {
-  color: #d97706;
+  color: inherit;
+  text-decoration: underline;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #b45309;
+  color: inherit;
+  opacity: 0.8;
 }
 
 .t-primary-color,
@@ -626,13 +628,12 @@ a:active {
    ======================================== */
 
 .o-content__body a {
-  text-decoration: none;
-  border-bottom: 1px solid rgba(217, 119, 6, 0.3);
-  transition: border-color 0.2s ease;
+  color: inherit;
+  text-decoration: underline;
 }
 
 .o-content__body a:hover {
-  border-bottom-color: #d97706;
+  text-decoration: none;
 }
 
 
