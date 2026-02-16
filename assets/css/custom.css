@@ -631,11 +631,16 @@ a:active {
 
 /* Timeline items - better spacing */
 .c-timeline__item {
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
 }
 
 .c-timeline__item:last-child {
   padding-bottom: 0;
+}
+
+/* Add more space between Experience and Education */
+#education-section {
+  margin-top: 4rem;
 }
 
 /* Grid gap for projects */
@@ -806,7 +811,7 @@ html {
   #education-section .o-section__container {
     align-items: flex-start !important;
   }
-  
+
   #education-section .o-section__header {
     align-self: flex-start !important;
     margin-top: 0 !important;
