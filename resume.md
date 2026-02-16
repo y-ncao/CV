@@ -15,10 +15,7 @@
 ---
 
 ## Intro
-
-> Be water
-
-I'm a tech leader with a mix of Integrity and Security background. I enjoy supporting people around me to achieve their goals and see their dreams come true.
+I’m a tech leader with a deep background in Integrity and Security. My leadership philosophy is simple: I see myself as a multiplier. I’m passionate about clearing roadblocks for my team and helping them hit their biggest career milestones while we tackle complex technical and security challenges.
 
 ---
 
@@ -27,60 +24,54 @@ I'm a tech leader with a mix of Integrity and Security background. I enjoy suppo
 ### Bytedance
 **Engineer Manager** | 2021.03 - Present | San Jose, CA
 
-• 2023 ~ now - Supporting the AuthN security team(FIDO2 - Fast Identity Online).
-• 2021 ~ 2023 - Supported the AuthN & AuthZ team. Responsible for access management platform and ZTI(zero trust infrastructure).
+- 2023 ~ now - Supporting the AuthN security team(including FIDO2 - Fast Identity Online).
+- 2021 ~ 2023 - Supported the AuthZ team. Responsible for global access management platform.
 
----
 
 ### FIDO Alliance 
 **Member Board of Directors** | 2024.01 - Present | USA
 
-Representing TikTok on the board of FIDO alliance, an open industry association with a focused mission to reduce reliance on passwords.
-(https://fidoalliance.org/overview/leadership/)
+- Representing TikTok on the [board of FIDO alliance](https://fidoalliance.org/overview/leadership/), an open industry association with a focused mission to reduce reliance on passwords.
 
----
 
 ### Novi, Facebook Blockchain
 **Engineer Manager** | 2019.02 - 2021.03 | Menlo Park, CA
 
-- **Data Separation** - took a defense in depth approach to build access controls to hold a strong commitment to protect customer privacy and security. [Learn more](https://bit.ly/3oNpCl0)
+- **Data Separation** - took a defense in depth approach to build access controls to hold a [strong commitment to protect customer privacy and security](https://bit.ly/3oNpCl0).
 - **Custody Service** - part of the team to design the initial version of our crypto wallet custody service.
 
----
 
 ### Instagram
 **Engineer Manager** | 2014.12 - 2019.02 | Menlo Park, CA
 
-- 11/2017 ~ 05/2018 - Supported the IG Account Security team, that fight against account takeover on the platform.
 - 05/2018 ~ 02/2019 - Supported the IG Well-being Experience team to provide the best of class user support experience.
+- 11/2017 ~ 05/2018 - Supported the IG Account Security team, that fight against account takeover on the platform.
+- 12/2014 ~ 11/2017 - Joined as an early engineer (top 100) to scale Instagram’s security to 300M+ users; led core initiatives in site integrity and account access to fight large-scale abuse and keep the platform safe.
 
-**Launched Projects:**
-- Instagram GDPR (General Data Protection Regulation)
-- Time spent dashboard for user well-being
-- TOTP 2 Factor Authentication
-- Ads transparency - About This Account
-
----
 
 ### Navisite
 **Software Engineer** | 2012.11 - 2014.11 | Syracuse, NY
+
+- Developed and maintained internal quoting engines and databases using Python and SQL to automate data reporting and support cloud service sales operations.
 
 ---
 
 ## Education
 
 ### Cornell University
-**Master of Engineering** | 2011 - 2012 | Ithaca, NY, U.S.A.
+**M.Eng** | 2011 - 2012 | Ithaca, NY, U.S.A.
 
----
+- Master of Engineering in Electrical and Computer Engineering (ECE)
 
 ### Queen Mary University of London
-**Bachelor of Science** | 2010 - 2011 | London, United Kingdom
+**B.Sc** | 2010 - 2011 | London, United Kingdom
 
----
+- Bachelor of Science in Electronic Engineering (EE)
 
 ### Beijing University of Posts and Telecommunications
-**Bachelor of Science** | 2007 - 2010 | Beijing, China
+**B.Sc** | 2007 - 2010 | Beijing, China
+
+- Bachelor of Science in Telecommunication Engineering
 
 ---
 
@@ -119,34 +110,41 @@ TikTok Passkeys - [View Presentation](https://docs.google.com/presentation/d/1NF
 
 ---
 
-## Projects
-
-### IG Account Security - 2016
-Leverage rule based policies to protect users accounts, including [Mark's IG account](https://www.sfgate.com/business/article/Why-Mark-Zuckerberg-s-Instagram-account-7966388.php).
-
----
-
-### IG 2FA - 2016
-Launched [IG two-factor authentication](https://techcrunch.com/2016/02/16/instagram-two-factor/).
-
----
-
-### IG Time Spent - 2018
-Launched [IG Time Spent Dashboard](https://techcrunch.com/2018/08/01/facebook-and-instagram-your-activity-time/) to help users well-being on the platform.
-
----
-
-### GDPR - 2018
-Co-led IG wide [GDPR compliant features](https://techcrunch.com/2018/04/24/instagram-export/).
-
----
-
-### IG TOTP - 2018
-Launched [IG time-based one-time password feature](https://www.wired.com/story/instagram-security-update/) to provide further security protections to our users.
-
----
+## Engineering Highlights
 
 ### Novi Data Separation - 2019
-Build access controls to protect [customer privacy and security](assets/images/portfolio/calibra-customer-commitment.pdf).
+- Text:Build access controls to protect customer privacy and security
+- Link: (assets/images/portfolio/calibra-customer-commitment.pdf).
+- Thumbnail: (calibra.jpeg)
 
----
+
+### IG TOTP - 2018
+- Text: Launched IG time-based one-time password feature to provide further security protections to our users
+- Link: https://www.wired.com/story/instagram-security-update/
+- Thumbnail: (instagram-totp.jpeg)
+
+
+### GDPR - 2018
+- Text: Co-led IG wide GDPR compliant features
+- Link: https://techcrunch.com/2018/04/24/instagram-export/
+- Thumbnail: (instagram-download-your-information.jpeg)
+
+
+### IG Time Spent - 2018
+- Text: Launched IG Time Spent Dashboard to help users well-being on the platform
+- Link: https://techcrunch.com/2018/08/01/facebook-and-instagram-your-activity-time/
+- Thumbnail: (instagram-your-activity.jpeg)
+
+
+### IG Account Security - 2016
+- Text: Leverage rule based policies to protect users accounts, including Mark's IG account
+- Link: https://www.sfgate.com/business/article/Why-Mark-Zuckerberg-s-Instagram-account-7966388.php
+- Thumbnail: (mark_hack.jpeg)
+
+
+### IG Two Factor Authentication - 2016
+- Text: Launched IG two-factor authentication
+- Link: https://techcrunch.com/2016/02/16/instagram-two-factor/
+- Thumbnail: (instagram-two-factor-authentication.jpeg)
+
+
