@@ -37,7 +37,7 @@ I’m a tech leader with a deep background in Integrity and Security. My leaders
 ### Novi, Facebook Blockchain
 **Engineer Manager** | 2019.02 - 2021.03 | Menlo Park, CA
 
-- **Data Separation** - took a defense in depth approach to build access controls to hold a [strong commitment to protect customer privacy and security](https://bit.ly/3oNpCl0).
+- **Data Separation** - took a defense in depth approach to build access controls to hold a strong commitment to protect customer privacy and security.
 - **Custody Service** - part of the team to design the initial version of our crypto wallet custody service.
 
 
@@ -112,37 +112,55 @@ TikTok Passkeys - [View Presentation](https://docs.google.com/presentation/d/1NF
 
 ## Engineering Highlights
 
+### TikTok Passkey x Google Android Show - 2024.03
+- Text: Our Passkey product team got featured during Google Android Show.
+- Link: https://www.youtube.com/watch?v=pou4o1X1DI4
+- Thumbnail: (tiktok-android-show-feature.jpeg)
+
+
+### Google Passkey Wizard Partnership - 2024.01
+- Text: Teamed up with Google to get TikTok as early launch partners on Android Passkey Wizard.
+- Link: https://security.googleblog.com/2024/01/upgrade-to-passkeys-on-pixel-with-google-password-manager.html
+- Thumbnail: (tiktok-google-passkey-wizard.jpeg)
+  
+
+### Launched TikTok Passkey Authentication - 2023.07
+- Text: TikTok Passkey is the more secure way to help users to log into their TikTok accounts.
+- Link: https://newsroom.tiktok.com/passkeys-fido-alliance?lang=en
+- Thumbnail: (tiktok-passkey.jpeg)
+
+
 ### Novi Data Separation - 2019
 - Text:Build access controls to protect customer privacy and security
 - Link: (assets/images/portfolio/calibra-customer-commitment.pdf).
 - Thumbnail: (calibra.jpeg)
 
 
-### IG TOTP - 2018
+### IG TOTP - 2018.08
 - Text: Launched IG time-based one-time password feature to provide further security protections to our users
 - Link: https://www.wired.com/story/instagram-security-update/
 - Thumbnail: (instagram-totp.jpeg)
 
 
-### GDPR - 2018
+### GDPR - 2018.04
 - Text: Co-led IG wide GDPR compliant features
 - Link: https://techcrunch.com/2018/04/24/instagram-export/
 - Thumbnail: (instagram-download-your-information.jpeg)
 
 
-### IG Time Spent - 2018
+### IG Time Spent - 2018.08
 - Text: Launched IG Time Spent Dashboard to help users well-being on the platform
 - Link: https://techcrunch.com/2018/08/01/facebook-and-instagram-your-activity-time/
 - Thumbnail: (instagram-your-activity.jpeg)
 
 
-### IG Account Security - 2016
+### IG Account Security - 2016.06
 - Text: Leverage rule based policies to protect users accounts, including Mark's IG account
 - Link: https://www.sfgate.com/business/article/Why-Mark-Zuckerberg-s-Instagram-account-7966388.php
 - Thumbnail: (mark_hack.jpeg)
 
 
-### IG Two Factor Authentication - 2016
+### IG Two Factor Authentication - 2016.02
 - Text: Launched IG two-factor authentication
 - Link: https://techcrunch.com/2016/02/16/instagram-two-factor/
 - Thumbnail: (instagram-two-factor-authentication.jpeg)
