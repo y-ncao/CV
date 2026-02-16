@@ -306,7 +306,7 @@ img.c-presentation-carousel__slide[src*="2025_12_Taipei_2"] {
 @media (min-width: 760px) {
   .c-presentation-info {
     width: 45%;
-    padding: 2rem 2.5rem;
+    padding: 1.5rem 2rem;
   }
 }
 
@@ -320,20 +320,20 @@ img.c-presentation-carousel__slide[src*="2025_12_Taipei_2"] {
 
 .c-presentation-info p {
   color: #6b7280;
-  line-height: 1.7;
+  line-height: 1.5;
   margin-bottom: 0;
 }
 
 /* Paragraph text improvements */
 .o-content__body p {
-  line-height: 1.8;
+  line-height: 1.6;
   color: #6b7280;
 }
 
 /* Intro paragraph - refined sizing */
 .c-intro p {
   font-size: 1.1rem;
-  line-height: 1.9;
+  line-height: 1.6;
   color: #4b5563;
   font-weight: 300;
 }
@@ -427,7 +427,7 @@ img.c-presentation-carousel__slide[src*="2025_12_Taipei_2"] {
 }
 
 .c-project-row {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .c-project-card {
@@ -489,7 +489,7 @@ img.c-presentation-carousel__slide[src*="2025_12_Taipei_2"] {
 }
 
 .c-project-content {
-  padding: 0.75rem;
+  padding: 0.5rem;
   flex: 1;
 }
 
@@ -609,13 +609,23 @@ a:active {
    ======================================== */
 
 /* More breathing room in sections */
-@media (min-width: 1200px) {
+@media (min-width: 760px) {
   .o-section__header {
-    padding: 5rem 5.25rem 2rem;
+    padding: 2.25rem 2.5rem 1.25rem;
   }
 
   .o-section__content {
-    padding: 5rem 5.25rem 2rem;
+    padding: 2.25rem 2.5rem 1.25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .o-section__header {
+    padding: 3rem 3rem 1.5rem;
+  }
+
+  .o-section__content {
+    padding: 3rem 3rem 1.5rem;
   }
 }
 
@@ -784,5 +794,35 @@ html {
   .c-deco-line {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+/* ========================================
+   13. SECTION ALIGNMENT FIXES
+   ======================================== */
+
+/* Education Section Specific Alignment - Force Top */
+@media (min-width: 760px) {
+  #education-section .o-section__container {
+    align-items: flex-start !important;
+  }
+  
+  #education-section .o-section__header {
+    align-self: flex-start !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    transform: none !important;
+  }
+
+  /* Adjust header h2 top margin to align with timeline dot/date */
+  #education-section .o-section__header h2 {
+    margin-top: 0.2rem !important;
+    padding-top: 0 !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #education-section .o-section__header {
+    padding-top: 0 !important;
   }
 }
