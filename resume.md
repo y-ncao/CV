@@ -15,7 +15,9 @@
 ---
 
 ## Intro
-I’m a tech leader with a deep background in Integrity and Security. My leadership philosophy is simple: I see myself as a multiplier. I’m passionate about clearing roadblocks for my team and helping them hit their biggest career milestones while we tackle complex technical and security challenges.
+I’m a tech leader with a deep background in Integrity and Security. 
+
+My leadership philosophy is simple: I see myself as a multiplier. I’m passionate about clearing roadblocks for my team and helping them hit their biggest career milestones while we tackle complex technical and security challenges.
 
 ---
 
@@ -37,22 +39,21 @@ I’m a tech leader with a deep background in Integrity and Security. My leaders
 ### Novi, Facebook Blockchain
 **Engineer Manager** | 2019.02 - 2021.03 | Menlo Park, CA
 
-- **Data Separation** - took a defense in depth approach to build access controls to hold a strong commitment to protect customer privacy and security.
-- **Custody Service** - part of the team to design the initial version of our crypto wallet custody service.
+- Engineering lead for Novi Security SWE team. We are responsible for building infra security systems and security toolings.
 
 
 ### Instagram
 **Engineer Manager** | 2014.12 - 2019.02 | Menlo Park, CA
 
-- 05/2018 ~ 02/2019 - Supported the IG Well-being Experience team to provide the best of class user support experience.
-- 11/2017 ~ 05/2018 - Supported the IG Account Security team, that fight against account takeover on the platform.
-- 12/2014 ~ 11/2017 - Joined as an early engineer (top 100) to scale Instagram’s security to 300M+ users; led core initiatives in site integrity and account access to fight large-scale abuse and keep the platform safe.
+- 05/2018 ~ 02/2019 - Engineering Manager for IG Well-being Experience Team. We are responsible for building product and experiences around account security, meaningful usage, reporting and appealing.
+- 11/2017 ~ 05/2018 - Engineering Manager for Account Security Team.
+- 12/2014 ~ 11/2017 - IC for Account Security Team. Our daily job is to fight against all kinds of hacking activities on the platform to protect our community.
 
 
 ### Navisite
 **Software Engineer** | 2012.11 - 2014.11 | Syracuse, NY
 
-- Developed and maintained internal quoting engines and databases using Python and SQL to automate data reporting and support cloud service sales operations.
+- As a full-stack engineer, I built Navisite's cloud service sales application from design to completion.
 
 ---
 
