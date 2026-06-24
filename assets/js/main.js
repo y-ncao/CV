@@ -15,10 +15,46 @@ $(document).ready(function () {
             setup_scrollreveal();
             setup_progress_bar_animation();
             setup_scroll_indicator();
+            setup_hash_scroll();
         });
     });
 
 });
+
+
+function get_hash_target() {
+    if (!window.location.hash) return null;
+
+    var id = window.location.hash.slice(1);
+    if (!id) return null;
+
+    try {
+        id = decodeURIComponent(id);
+    } catch (e) {
+        // Keep the raw hash when it is not URI-encoded cleanly.
+    }
+
+    return document.getElementById(id);
+}
+
+
+function scroll_to_hash_target() {
+    var target = get_hash_target();
+    if (!target) return;
+
+    try {
+        target.scrollIntoView({ behavior: 'auto', block: 'start' });
+    } catch (e) {
+        target.scrollIntoView(true);
+    }
+}
+
+
+function setup_hash_scroll() {
+    scroll_to_hash_target();
+    window.setTimeout(scroll_to_hash_target, 250);
+    $(window).on('hashchange', scroll_to_hash_target);
+}
 
 
 // Scroll indicator fade on scroll
